@@ -9,5 +9,5 @@ import java.util.Map;
 public class GraphQLEndpointRequest {
     private String query;
     private Map<String, Object> variables;
-    private Map<String, Object> context; //TODO:VER PARA QUE SIRVE
+    private Map<String, Object> context;
 }
