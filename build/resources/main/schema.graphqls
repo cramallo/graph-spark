@@ -1,0 +1,13 @@
+scalar JSON
+scalar Date
+scalar JsonMap
+scalar JsonMapCamel
+
+schema {
+    query: Query
+}
+
+type Query {
+    student(id: Long!) : Student
+}
+
